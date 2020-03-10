@@ -30,3 +30,28 @@ console.log(" ")
 console.log(null + 1);
 console.log(undefined > 0);
 console.log(undefined + 1);
+console.log(" ");
+
+// 4 Logical Operators
+/*
+OR ||
+AND &&
+NOT !
+*/
+
+// 4.1.0: OR ||
+console.log("OR || (Booleens)");
+console.log(true || true); // Output: true - True or true is true because at least one is true
+console.log(true || false); // Output: true - At least one is true therefore the if is true
+console.log(false || true); // Output: true - At least one is true therefore the if is true
+console.log(false || false); // Output: false - There is no true for either side therefore the if is false
+console.log(" ");
+
+console.log("OR || (Values)");
+console.log(1 || 1); // Output: 1 - 
+console.log(1 || 0);
+console.log(0 || 1);
+console.log(0 || 0);
+console.log(" ");
+
+console.log(false || true && true);
